@@ -1,0 +1,51 @@
+/* Default styles for the Contact Us form */
+#contact {
+    margin-top: -90px;
+    width: 40%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+#contact h1 {
+    margin-top: 25px;
+    font-size: 2rem;
+}
+
+#contact form {
+    margin: 25px 85px 75px 100px;
+}
+
+/* Responsive styles for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    #contact {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+
+    #contact h1 {
+        font-size: 1.5rem; /* Adjust the font size for smaller screens */
+        margin-left:90px;
+        
+    }
+
+    #contact form {
+        margin: 10px; /* Adjust the margins for smaller screens */
+    }
+}
+
+/* Responsive styles for screens with a minimum width of 1200px */
+@media screen and (min-width: 1200px) {
+    #contact {
+        width: 50%; /* Adjust the width for larger screens */
+    }
+
+    #contact h1 {
+        font-size: 2.5rem; /* Adjust the font size for larger screens */
+        
+    }
+
+    #contact form {
+        margin: 50px; /* Adjust the margins for larger screens */
+    }
+}
+
